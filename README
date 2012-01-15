@@ -1,4 +1,4 @@
-project-starter version 0.0.1
+Project-Starter v0.0.0
 
 [ REPLACE THIS...
 
@@ -19,20 +19,18 @@ INSTALLATION
 
 To install this module, run the following commands:
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
-
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
 
 DEPENDENCIES
 
 None.
 
+Copyright (c) 2012, Xiong Changnian <xiong@cpan.org>. 
+All rights reserved. No warranty.
 
-COPYRIGHT AND LICENCE
+This library and its contents are released under Artistic License 2.0:
 
-Copyright (C) 2012 Xiong Changnian
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+http://www.opensource.org/licenses/artistic-license-2.0.php

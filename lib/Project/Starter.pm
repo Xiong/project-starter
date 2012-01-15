@@ -1,15 +1,14 @@
 package Project::Starter;
 #=========# MODULE USAGE
-use Project::Starter;       # !------44 chars max tagline in PAUSE upload!
-                            # Start stub dirs, templates, flexible config
+use Project::Starter;       # Start stub dirs, templates, flexible config
 
 #~ use 5.008008;       # 5.8.8
-#~ use 5.010001;       # 5.10.1
+use 5.010001;       # 5.10.1
 #~ use 5.012003;       # 5.12.3
 #~ use 5.014002;       # 5.14.2
 use strict;
 use warnings;
-use version; our $VERSION = qv('0.0.0');
+use version; our $VERSION = qv('v0.0.0');
 
 # Core modules
 
