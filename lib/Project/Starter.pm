@@ -1,6 +1,6 @@
 package Project::Starter;
 #=========# MODULE USAGE
-use Project::Starter;       # Start stub dirs, templates, flexible config
+#~ use Project::Starter;       # Start stub dirs, templates, flexible config
 
 #~ use 5.008008;       # 5.8.8
 use 5.010001;       # 5.10.1
@@ -33,7 +33,7 @@ __END__
 
 =head1 NAME
 
-Project::Starter - xxxTAGLINExxx
+Project::Starter - Start stub dirs, templates, flexible config
 
 =head1 VERSION
 
@@ -44,6 +44,29 @@ This document describes Project::Starter version 0.0.0
     use Project::Starter;
 
 =head1 DESCRIPTION
+
+I<Nobody should start to undertake a large project.> 
+    -- Linus Torvalds
+I<Make no little plans....> 
+    -- Daniel Burnham
+I<You're lost, you're angry in the woods, and no one is here to help you.>
+    -- Blair Witch Project
+
+If you only wanted to start a module, it would be easy. But you need to start 
+a project with perhaps dozens of files and I can't tell what they are. You 
+probably don't start a new project every week so you'd rather not spend too 
+much time learning my clever system. You know that every project is subtly 
+different from every previous one, even at the level of stub files. You would 
+like to take some of the drugery out of that initial commit. 
+Project::Starter is here to help. 
+
+Many templates are shipped with this distribution and you can use 
+Template::Toolkit placeholders to create more, freely. You may create 
+multiple profiles, each with its own config file, which may be written in any 
+format accepted by Config::Any. Both config files and templates may be 
+cascaded to start projects of any scale and type; with minimal effort. 
+New content may be added to an existing project as easily as one is started 
+from scratch. 
 
 =head1 INTERFACE 
 
@@ -109,6 +132,10 @@ No bugs have been reported.
 Please report any bugs or feature requests to
 C<bug-project-starter@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
+
+=head1 SOURCE
+
+Source is available at L<http://github.com/Xiong/project-starter>
 
 =head1 AUTHOR
 

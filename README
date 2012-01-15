@@ -1,19 +1,27 @@
 Project-Starter v0.0.0
 
-[ REPLACE THIS...
+Nobody should start to undertake a large project. 
+    -- Linus Torvalds
+Make no little plans.... 
+    -- Daniel Burnham
+You're lost, you're angry in the woods, and no one is here to help you.
+    -- Blair Witch Project
 
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
+If you only wanted to start a module, it would be easy. But you need to start 
+a project with perhaps dozens of files and I can't tell what they are. You 
+probably don't start a new project every week so you'd rather not spend too 
+much time learning my clever system. You know that every project is subtly 
+different from every previous one, even at the level of stub files. You would 
+like to take some of the drugery out of that initial commit. 
+Project::Starter is here to help. 
 
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
-
+Many templates are shipped with this distribution and you can use 
+Template::Toolkit placeholders to create more, freely. You may create 
+multiple profiles, each with its own config file, which may be written in any 
+format accepted by Config::Any. Both config files and templates may be 
+cascaded to start projects of any scale and type; with minimal effort. 
+New content may be added to an existing project as easily as one is started 
+from scratch. 
 
 INSTALLATION
 
@@ -26,7 +34,7 @@ To install this module, run the following commands:
 
 DEPENDENCIES
 
-None.
+Template::Toolkit, Config::Any, Error::Base.
 
 Copyright (c) 2012, Xiong Changnian <xiong@cpan.org>. 
 All rights reserved. No warranty.

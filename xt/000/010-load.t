@@ -9,10 +9,9 @@ BEGIN {
 }   
 
 BEGIN {
-use Error::Base;                # Simple structured errors with full backtrace
-use Error::Base::Cookbook;      # Examples of Error::Base usage
+    use Project::Starter;       # Start stub dirs, templates, flexible config
     
 }
 
 pass( 'Load modules.' );
-diag( "Testing Error::Base $Error::Base::VERSION" );
+diag( "Testing Project::Starter $Project::Starter::VERSION" );
